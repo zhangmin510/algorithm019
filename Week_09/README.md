@@ -36,12 +36,12 @@ public int dpProblem() {
 1. 斐波那契数列。 `dp[i] = dp[i - 1] + dp[i - 1]`
 
 二维：
-2. 路径问题。 `dp[i][j] = dp[i - 1][j] + f[i][j - 1]`
-3. 最小路径问题.`dp[i][j] = min(dp[i - 1][j], dp[i][j - 1]) + A[i][j]`
-4. 打家劫舍问题。`dp[i] = max(dp[i - 2] + nums[i], dp[i - 1])`或者`dp[i][0] = max(dp[i - 1][0], dp[i - 1][1]); dp[i][1] = dp[i - 1][0] + nums[i]`;
-5. 最长子序列。`dp[i][j] = dp[i - 1][j - 1] + 1; dp[i][j] = max(dp[i - 1][j], dp[i][j - 1])`
-6. 最长子串.`dp[i][j] = dp[i - 1][j - 1] + 1; d[i][j] = 0`
-7. 编辑距离。
+1. 路径问题。 `dp[i][j] = dp[i - 1][j] + f[i][j - 1]`
+2. 最小路径问题.`dp[i][j] = min(dp[i - 1][j], dp[i][j - 1]) + A[i][j]`
+3. 打家劫舍问题。`dp[i] = max(dp[i - 2] + nums[i], dp[i - 1])`或者`dp[i][0] = max(dp[i - 1][0], dp[i - 1][1]); dp[i][1] = dp[i - 1][0] + nums[i]`;
+4. 最长子序列。`dp[i][j] = dp[i - 1][j - 1] + 1; dp[i][j] = max(dp[i - 1][j], dp[i][j - 1])`
+5. 最长子串.`dp[i][j] = dp[i - 1][j - 1] + 1; d[i][j] = 0`
+6. 编辑距离。
 
 三维：
-7. 股票问题。`dp[i][k][s] = max(buy, sell, rest)`
+1. 股票问题。`dp[i][k][s] = max(buy, sell, rest)`
